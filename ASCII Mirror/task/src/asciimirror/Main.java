@@ -2,19 +2,13 @@ package asciimirror;
 
 public class Main {
     public static void main(String[] args) {
-        String[] lines = {
-                "                    _______ ",
-                "                   < hello >",
-                "                    ------- ",
-                "            ^__^   /        ",
-                "    _______/(oo)  /         ",
-                "/\\/\\(       /(__)            ",
-                "   | w----||                ",
-                "   ||     ||                "
-        };
-
-        for (String line : lines) {
-            System.out.println(line);
-        }
+        System.out.println("                    _______ ");
+        System.out.println("                   < hello >");
+        System.out.println("                    ------- ");
+        System.out.println("            ^__^   /        ");
+        System.out.println("    _______/(oo)  /         ");
+        System.out.println("/\\/(       /(__)            ");
+        System.out.println("   | w----||                ");
+        System.out.println("   ||     ||                ");
     }
 }

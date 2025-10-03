@@ -8,14 +8,8 @@ files:
     visible: false
     learner_created: false
 feedback_link: https://hyperskill.org/projects/260/stages/1316/implement#comment
-status: Failed
+status: Solved
 feedback:
-  message: "Wrong answer in test #1\n\nAll the printed lines should be equal to lines\
-    \ in the example. Make sure, that you&#39;ve not ignored whitespaces at the beginning\
-    \ and at the end of each line\n\nPlease find below the output of your program\
-    \ during this failed test.\n\n---\n\n_______ \n                   &lt; hello &gt;\n\
-    \                    ------- \n            ^__^   /        \n    _______/(oo)\
-    \  /         \n/\\/\\(       /(__)            \n   | w----||                \n\
-    \   ||     ||"
-  time: "Fri, 03 Oct 2025 08:31:27 UTC"
+  message: Congratulations!
+  time: "Fri, 03 Oct 2025 08:33:45 UTC"
 record: -1
