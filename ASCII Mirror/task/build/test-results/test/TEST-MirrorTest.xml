@@ -1,17 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MirrorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-03T08:33:45" hostname="TRAYANA" time="0.034">
+<testsuite name="MirrorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-03T08:35:24" hostname="TRAYANA" time="0.048">
   <properties/>
-  <testcase name="start" classname="MirrorTest" time="0.034"/>
+  <testcase name="start" classname="MirrorTest" time="0.048"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
-                    _______ 
-                   < hello >
-                    ------- 
-            ^__^   /        
-    _______/(oo)  /         
-/\/(       /(__)            
-   | w----||                
-   ||     ||                
+Input the file path:
+>  
+ 
+            ^__^
+    _______/(oo)
+/\/(       /(__)
+   | w----||    
+   ||     ||    
+?[1;31m
+Start test 2?[0m
+Input the file path:
+> test
+test
+            ^__^
+    _______/(oo)
+/\/(       /(__)
+   | w----||    
+   ||     ||    
+?[1;31m
+Start test 3?[0m
+Input the file path:
+> C:\Users\Examples\test.txt
+C:\Users\Examples\test.txt
+            ^__^
+    _______/(oo)
+/\/(       /(__)
+   | w----||    
+   ||     ||    
+?[1;31m
+Start test 4?[0m
+Input the file path:
+> /home/username/test.txt
+/home/username/test.txt
+            ^__^
+    _______/(oo)
+/\/(       /(__)
+   | w----||    
+   ||     ||    
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
