@@ -1,5 +1,7 @@
 package asciimirror;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Main {
@@ -9,14 +11,18 @@ public class Main {
         System.out.println("Input the file path:");
         String path = sc.nextLine();
 
-        // Echo the exact input
-        System.out.println(path);
+        File file = new File(path);
 
-        // Cow, each line is exactly 16 characters wide
-        System.out.println("            ^__^");
-        System.out.println("    _______/(oo)");
-        System.out.println("/\\/(       /(__)");
-        System.out.println("   | w----||    ");
-        System.out.println("   ||     ||    ");
+        if (!file.exists() || !file.isFile()) {
+            System.out.println("File not found!");
+        } else {
+            try (Scanner fileScanner = new Scanner(file)) {
+                while (fileScanner.hasNextLine()) {
+                    System.out.println(fileScanner.nextLine());
+                }
+            } catch (FileNotFoundException e) {
+                System.out.println("File not found!");
+            }
+        }
     }
 }
