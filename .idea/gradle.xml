@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -23,6 +24,14 @@
             <option value="$PROJECT_DIR$/Topics/File class/Theory" />
             <option value="$PROJECT_DIR$/Topics/File class/Working with file data in Java" />
             <option value="$PROJECT_DIR$/Topics/File class/Сorrect statements" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to generic programming/Correct the program" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to generic programming/Creating instances" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to generic programming/Declaring generic classes" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to generic programming/Generic parameter values" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to generic programming/Pastry packing optimization" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to generic programming/Safekeeping Secrets in a Magic Box" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to generic programming/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to generic programming/Type arguments" />
             <option value="$PROJECT_DIR$/Topics/Wrapping classes. Boxing/Identify a possible exception" />
             <option value="$PROJECT_DIR$/Topics/Wrapping classes. Boxing/Only true or false" />
             <option value="$PROJECT_DIR$/Topics/Wrapping classes. Boxing/Theory" />
