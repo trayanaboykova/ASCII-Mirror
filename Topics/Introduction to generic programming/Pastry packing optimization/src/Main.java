@@ -51,20 +51,7 @@ class TartBox {
     Hundred more such boring classes OR ...
     magic class for everything everybody is waiting for
 */
-/**
- * Universal Box class for any type of pastry
- */
-class Box<T> {
-    private T item;
-
-    public void put(T item) {
-        this.item = item;
-    }
-
-    public T get() {
-        return this.item;
-    }
-}
+class Box...
 
 // Don't change classes below
 class Cake { }
